@@ -4,7 +4,80 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b87fc77-a7a2-4943-ba13-1b564cabd8d5" name="Changes" comment="" />
+    <list default="true" id="6b87fc77-a7a2-4943-ba13-1b564cabd8d5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Projeto_devlittlegirls.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/migrations/0002_alter_site_home_page_alter_site_nome_site.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/migrations/0003_authgroup_authgrouppermissions_authpermission_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/migrations/0004_alter_site_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/migrations/0005_alter_site_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/migrations/0006_delete_authgroup_delete_authgrouppermissions_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/migrations/0007_alter_site_options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/migrations/0008_authgroup_authgrouppermissions_authpermission_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/migrations/0009_categoria_curso.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/css/LineIcons.2.0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/css/features.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/css/glightbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/css/tiny-slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/fonts/LineIcons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/fonts/LineIcons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/fonts/LineIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/fonts/LineIcons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/fonts/LineIcons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/images/favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/images/hero/garota-com-personagem-de-computador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/images/hero/laptop-g26bd634ce_1280.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/images/logo/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/images/logo/white-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/images/profile/jaque.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/images/profile/karine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/images/profile/leticia.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/images/profile/marcia.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/images/profile/mayra.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/images/profile/profile-of-a-girl-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/images/profile/profile-of-a-girl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/js/count-up.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/js/glightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/js/tiny-slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/static/mail/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/templates/Devlittlegirls_app/site_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/templates/Devlittlegirls_app/site_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devlittlegirls_app/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/Django-4.0.5.dist-info/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/Django-4.0.5.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/Django-4.0.5.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/Django-4.0.5.dist-info/LICENSE.python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/Django-4.0.5.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/Django-4.0.5.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/Django-4.0.5.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/Django-4.0.5.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/Django-4.0.5.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/Django-4.0.5.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/MySQLdb/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/site-packages/MySQLdb/_exceptions.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
