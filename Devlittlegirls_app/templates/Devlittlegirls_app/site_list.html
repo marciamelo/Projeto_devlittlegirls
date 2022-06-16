@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html class="no-js" lang="zxx">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Dev Little Girls</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon.svg' %}" />
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/LineIcons.2.0.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/tiny-slider.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/glightbox.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+            <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+        </p>
+    <![endif]-->
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+
+
+
+    <!-- Start Header Area -->
+    <header class="header navbar-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <!-- Start Navbar -->
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="{% static 'images/logo/white-logo.svg' %}" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a href="#home" class="page-scroll active" aria-label="Toggle navigation">
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#about-us" class="page-scroll" aria-label="Toggle navigation">
+                                            Sobre nós
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#free-courses" class="page-scroll" aria-label="Toggle navigation">
+                                            Cursos Gratuitos
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#feedback" class="page-scroll" aria-label="Toggle navigation">
+                                            Depoimentos
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#footer" class="page-scroll" aria-label="Toggle navigation">
+                                            Fale conosco
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- End Navbar -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Start Home Area -->
+    <section id="home" class="home-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="home-content">
+                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">Garotas quando codam, mudam o futuro</h1>
+                        <p class="wow fadeInLeft" data-wow-delay=".6s">Você acha que trabalhar na área de TI é somente
+                            arrumar computadores, instalar programas? Já pensou seguir carreira em uma área que está
+                            crescendo expressivamente?
+                            Você sabia que a área de TI é predominantemente masculina?
+                            Que tal mudar esse cenário, fazer parte dessa mudança? É para este universo que queremos te
+                            levar, topa encarar esse desafio?</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-12">
+                    <div class="hero-image wow fadeIApp">
+                        <img src="{% static 'images/hero/garota-com-personagem-de-computador.png' %}" alt="">
+                    </div>
+                </div>
+    </section>
+    <!-- End Home Area -->
+
+    <!-- Start Abou Us Table Area -->
+    <section id="about-us" class="about-us-table section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <!-- <h3 class="wow zoomIn" data-wow-delay=".2s">pricing</h3> -->
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Sobre nós</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Somos alunas do Bacharelado em Ciência de Dados da
+                            Univesp. Com a necessidade de criar um framework web para o nosso projeto integrador surgiu
+                            a ideia de criar o Dev Little Girls.
+                            Observando o mercado de trabalho e notando que há poucas mulheres em TI, vimos que há uma
+                            oportunidade de incentivar garotas do ensino médio, principalmente de escolas públicas, a
+                            ingressarem na área,
+                            enxergarem a área como uma opção de carreira.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp about-us-card" data-wow-delay=".2s">
+                        <!-- Table Head -->
+                        <span class="about-us-card">
+                            <div class="table-head">
+                                <h4 class="title">
+                                    <span class="profile">
+                                        <img src="{% static 'images/profile/marcia.jpeg'%}" alt="">
+                                        <span>Marcia</span>
+                                    </span>
+                                </h4>
+                                <p>
+                                    Analista de BI, mãe do Juan e da Eloísa e apaixonada por esse mundo de Tecnologia da
+                                    Informação e CIência de
+                                    Dados. Estou sempre em busca de novos conhecimentos e
+                                    atualização das novidades do universo de TI. No Bacharelado de Ciência de Dados da
+                                    Univesp vi a
+                                    oportunidade de mergulhar neste mundo tão vasto que são os dados, com metodologias e
+                                    direcionamento adequado.
+                                </p>
+                                <!-- <div class="button">
+                                    <a href="javascript:void(0)" class="btn">Buy Hobby</a>
+                                </div> -->
+                            </div>
+                        </span>
+                        <!-- End Table Head -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-md-6 col-12">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp" data-wow-delay=".4s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h4 class="title">
+                                <span class="profile">
+                                    <img src="{% static 'images/profile/karine.jpg'%}" alt="">
+                                    <span>Karine</span>
+                                </span>
+                            </h4>
+                            <p>
+                                Tenho 27 anos e sou Arquiteta de Automação de Testes atualmente.
+                                Iniciei na área de tecnologia como Desenvolvedora front-end aos 25 anos e a partir daí
+                                ví um mundo enorme de oportunidades,
+                                foi então buscando melhorar iniciei meu Bacharelado na área de Ciência de Dados na
+                                UNIVESP e cada dia que passo vejo o quanto a área de Tecnologia da informação continua
+                                em constante crescimento.
+                            </p>
+                        </div>
+                        <!-- End Table Head -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ End Abou Us Table Area -->
+
+
+
+
+
+
+    <!-- Start Courses Area -->
+    <section id="free-courses" class="free-courses section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp white-color" data-wow-delay=".4s">Cursos Gratuitos</h2>
+                        <p class="wow fadeInUp white-color" data-wow-delay=".6s">
+                            Dá uma olhadinha em algumas sugestões de
+                            cursos e bootcamps gratuitos para você começar a dar seus primeiro passos na carreira de
+                            tecnologia.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 courses-div">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp courses-card" data-wow-delay=".2s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <!-- End Courses Area -->
+                            <h5 class="title">
+                                Laboratoria
+                            </h5>
+                            <p class="course-description">
+                                A Laboratória possibilita que mulheres que sonham com um futuro melhor comecem uma
+                                carreira transformadora e promissora na área de tecnologia.
+                            </p>
+                            <div class="button">
+                                <a href="https://hub.laboratoria.la/br" class="btn">Acessar</a>
+                            </div>
+                        </div>
+                        <!-- End Table Head -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 courses-div">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp courses-card" data-wow-delay=".4s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h5 class="title">
+                                Dio
+                            </h5>
+                            <p class="course-description">
+                                A Digital Innovation One disponibiliza cursos, bootcamps e projetos práticos focados no
+                                mercado de trabalho. Há cursos gratuitos e uma área paga.
+                            </p>
+                            <div class="button">
+                                <a href="https://digitalinnovation.one/" class="btn">Acessar</a>
+                            </div>
+                        </div>
+                        <!-- End Table Head -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 courses-div">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp courses-card" data-wow-delay=".6s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h5 class="title">
+                                DSA
+                            </h5>
+                            <p class="course-description">
+                                Maior plataforma da América Latinade ensino online de Ciência de Dados, Big Data,
+                                Inteligência Artificial e Blockchain com cursos pagos e gratuitos.
+                            </p>
+                            <div class="button">
+                                <a href="https://www.datascienceacademy.com.br/" class="btn">Acessar</a>
+                            </div>
+                        </div>
+                        <!-- End Table Head -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 courses-div">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp courses-card" data-wow-delay=".8s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h5 class="title">
+                                {reprograma}
+                            </h5>
+                            <p class="course-description">
+                                Iniciativa de impacto social que foca em ensinar programação para mulheres cis e trans
+                                que não têm recursos e/ou oportunidades para aprender a programar.
+                            </p>
+                            <div class="button">
+                                <div class="button wow fadeInUp" data-wow-delay=".6s">
+                                    <a href="https://reprograma.com.br/index.html" class="btn">Acessar</a>
+                                </div>
+                                <!-- <a href="javascript:void(0)" class="btn">Buy Enterprise</a> -->
+                            </div>
+                        </div>
+                        <!-- End Table Head -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 courses-div">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp courses-card" data-wow-delay=".8s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h5 class="title">
+                                ela empoder@.
+                            </h5>
+                            <p class="course-description">
+                                Iniciativa com o objetivo de promover o empoderamento feminino nas comunidades
+                                empreendedoras, através de capacitações e mentorias, impulsionando negócios com a
+                                presença de mulheres em sua fundação e/ou em cargos de liderança.
+                            </p>
+                            <div class="button">
+                                <div class="button wow fadeInUp" data-wow-delay=".6s">
+                                    <a href="https://elaempodera.softex.br/" class="btn">Acessar</a>
+                                </div>
+                                <!-- <a href="javascript:void(0)" class="btn">Buy Enterprise</a> -->
+                            </div>
+                        </div>
+                        <!-- End Table Head -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 courses-div">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp courses-card" data-wow-delay=".8s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h5 class="title">
+                                MaisMulheres.Tech
+                            </h5>
+                            <p class="course-description">
+                                Uma parceria entre Microsoft e WoMakersCode, oferece trilhas de capacitação gratuita e
+                                online, nas áreas de Computação em Nuvem, Infraestrutura, Segurança da Informação,
+                                DevOps, Desenvolvimento e Ciência de Dados e Inteligência Artificial.
+                            </p>
+                            <div class="button">
+                                <div class="button wow fadeInUp" data-wow-delay=".6s">
+                                    <a href="https://maismulheres.tech/" class="btn">Acessar</a>
+                                </div>
+                                <!-- <a href="javascript:void(0)" class="btn">Buy Enterprise</a> -->
+                            </div>
+                        </div>
+                        <!-- End Table Head -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 courses-div">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp courses-card" data-wow-delay=".8s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h5 class="title">
+                                Hands On Study
+                            </h5>
+                            <p class="course-description">
+                                Plataforma de educação para o mercado digital e capacitação profissional da Hands On
+                                Aceleradora. Oferta trilhas de capacitação com aulas em Desenvolvimento Profissional e
+                                Empresarial, Gestão de Negócios e muito mais.
+                            </p>
+                            <div class="button">
+                                <div class="button wow fadeInUp" data-wow-delay=".6s">
+                                    <a href="https://ead.handson.org.br/courses" class="btn">Acessar</a>
+                                </div>
+                                <!-- <a href="javascript:void(0)" class="btn">Buy Enterprise</a> -->
+                            </div>
+                        </div>
+                        <!-- End Table Head -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 courses-div">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp courses-card" data-wow-delay=".8s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h5 class="title">
+                                Desenvolve 40+
+                            </h5>
+                            <p class="course-description">
+                                Só mais uma! Você conhece alguém que tem 40 anos ou mais e está desempregado ou quer
+                                mudar de área? Que tal "puxar" ela(e) para o universo de TI também? O Magazine Luiza
+                                está com esse projeto super legal de capacitação gratuito em TI \o/.
+                            </p>
+                            <div class="button">
+                                <div class="button wow fadeInUp" data-wow-delay=".6s">
+                                    <a href="https://letscode.com.br/desenvolve-magalu" class="btn">Acessar</a>
+                                </div>
+                                <!-- <a href="javascript:void(0)" class="btn">Buy Enterprise</a> -->
+                            </div>
+                        </div>
+                        <!-- End Table Head -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Courses Area -->
+
+<!-- Start Lista_Cursos Area -->
+    <section id="Lista-Cursos" class="Lista-Cursos-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="Lista-Cursos-content">
+                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">Lista de Sites</h1>
+                        <input type="submit" onclick="location.href = '{% url 'Devlittlegirls_app:Create' %}'" value = "Cadastrar novo site">
+                        <ul>
+                            {% for site in object.site %}
+                            <li>{{ site.nome }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-12">
+                </div>
+    </section>
+<!--    / End Lista Cursos Area -->
+
+<!--     Start Feedback Area-->
+    <section id="feedback" class="feedbacks section">
+        <div class=" container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Depoimentos</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">
+                            Depoimentos de algumas mulheres que fizeram uma transição de carreira e alunas que mudaram
+                            radicalmente para a área de tecnologia
+                            com algum dos cursos gratuitos que citamos acima.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-12" style="width: 33%;">
+                        <!-- Start Single Feedback -->
+                        <div class="single-feedback wow fadeInUp" data-wow-delay=".2s">
+                            <h4 class="title">
+                                <span class="profile">
+                                    <img src="{% static 'images/profile/leticia.jpeg'%}" alt="">
+                                    <span>
+                                        <h2 style="font-size: 0.7em;">Leticia Sampaio</h2>
+                                        <h2 style="font-size: 0.5em;">Software Engineer</h2>
+                                    </span>
+                                </span>
+                            </h4>
+                            <p style="margin: 20px;">
+                                "Fiz faculdade de estética e cosmetologia, trabalhei por 3 anos atuando nesta área. Resolvi
+                                mudar de profissão e ir pra área de tecnologia pois já estava infeliz com meu trabalho,
+                                conheci a Laboratória e hoje estou trabalhando com desenvolvimento Front End."
+                            </p>
+                        </div>
+                        <!-- End Single Feedback -->
+                    </div>
+                    <div class="col-md-6 col-12" style="width: 33%;">
+                        <!-- Start Single Feedback -->
+                        <div class="single-feedback wow fadeInUp" data-wow-delay=".4s">
+                            <h4 class="title">
+                                <span class="profile">
+                                    <img src="{% static 'images/profile/mayra.jpeg'%}" alt="">
+                                    <span>
+                                        <h2 style="font-size: 0.7em;">Mayra Coelho</h2>
+                                        <h2 style="font-size: 0.5em;">Quality Assurance</h2>
+                                    </span>
+                                </span>
+                            </h4>
+                            <p style="margin: 20px;">
+                                "Estava desempregada quando as portas da Sempre IT foram abertas para mim. Em seguida tive a
+                                oportunidade de estudar na {reprograma} aprimorando ainda mais os meus conhecimentos. Hoje sou
+                                engenheira de qualidade no maior banco privado do Brasil!"
+                            </p>
+                        </div>
+                        <!-- End Single Feedback -->
+                    </div>
+                    <div class="col-md-6 col-12" style="width: 33%;">
+                        <!-- Start Single Feedback -->
+                        <div class="single-feedback wow fadeInUp" data-wow-delay=".6s">
+                            <h4 class="title">
+                                <span class="profile">
+                                    <img src="{% static 'images/profile/jaque.jpeg'%}" alt="">
+                                    <span>
+                                        <h2 style="font-size: 0.7em;">Jaqueline Wanzeler</h2>
+                                        <h2 style="font-size: 0.5em;">Analista de Automação QA</h2>
+                                    </span>
+                                </span>
+                            </h4>
+                            <p style="margin: 20px;">
+                                Toda transição de carreira é difícil. Mas, através da Laboratória, encontrei a oportunidade de
+                                entrar no área de tecnologia. Atualmente trabalho como Analista de teste para uma multinacional
+                                e o aprendizado adquirido no bootcamp faz toda diferença.
+                            </p>
+                        </div>
+                        <!-- End Single Feedback -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Feedback Area -->
+
+    <!-- Start Footer Area -->
+    <footer id="footer" class="footer section">
+        <!-- Start Footer Top -->
+        <section class="footer-top">
+            <div style="text-align: left;">
+                <img style="width: 300px;" src="{% static 'images/logo/white-logo.svg' %}" alt="#">
+            </div>
+            <!-- Single Widget -->
+            <div class="single-footer f-about">
+                <div class="logo" style="text-align: end; margin-bottom: 0;">
+                    <a href="index.html">
+                        <ul class="social">
+                            <li style="margin: 10px 0;">
+                                <a href="https://www.linkedin.com/in/karine-verneque">
+                                    <i class="lni lni-linkedin-original"></i>
+                                    <span>
+                                        karine-verneque
+                                    </span>
+                                </a>
+                            </li>
+                            <br>
+                            <li style="margin: 10px 0;">
+                                <a href="https://www.linkedin.com/in/maria-marcia-m-t-rocha">
+                                    <i class="lni lni-linkedin-original"></i>
+                                    <span>
+                                        maria-marcia-m-t-rocha
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+                <!--/ End Footer Top -->
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top">
+        <i class="lni lni-chevron-up"></i>
+    </a><!-- ========================= CSS here ========================= -->
+    <!-- ========================= JS here ========================= -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <scricta-contentpt src="{% static 'js/tiny-slider.js' %}">
+        </script>
+        <script src="{% static 'js/glightbox.min.js' %}"></script>
+        <script src="{% static 'js/count-up.min.js' %}"></script>
+        <script src="{% static 'js/main.js' %}"></script>
+        <script type="text/javascript">
+
+            //====== counter up 
+            var cu = new counterUp({
+                start: 0,
+                duration: 2000,
+                intvalues: true,
+                interval: 100,
+                append: " ",
+            });
+            cu.start();
+        </script>
+</body>
+
+</html>
